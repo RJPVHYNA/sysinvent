@@ -1,0 +1,77 @@
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+#customers tr:nth-child(even){background-color: #fff;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    /* padding-top: 12px; */
+    /* padding-bottom: 12px; */
+    text-align: center;
+    background: #418ce0;
+    color: white;
+}
+
+ul.ColVis_collection li {
+    font-size: 12px !important;
+    /*padding: 0.3em !important;*/
+}
+ul.ColVis_collection li label input[type="checkbox"]{
+	width: 20px;
+    height: 20px;
+}
+@media (max-width: 768px) {
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 0px;
+	font-size: 10px !important;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+.card .card-content {
+    padding: 0px 0px !important;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 10px;
+}
+table#customers th {
+    min-width: 200px;
+}
+aside.left-panel {
+    background: #fff !important;
+	top: 55px !important;
+	
+}
+#left-panel .navbar .navbar-nav li > a .menu-icon {
+    font-size: 30px !important;
+	padding-left: 20px !important;
+}
+button.ColVis_Button{
+	font-size: 14px !important;
+    padding: 5px 10px 5px 10px !important;
+}
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+	aside.left-panel .navbar .navbar-nav li.menu-item-has-children.show .sub-menu {
+    top: -2px !important;
+    background-color: #fff !important;
+}
+li.menu-item-has-children.dropdown.show {
+    background-color: #fff !important;
+}
+}
+#customers td .input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    text-align: center;
+	
+}
